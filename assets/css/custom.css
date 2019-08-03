@@ -1,0 +1,46 @@
+.dataTables_filter input{
+    background: #f8f8f8;
+    font-size: 14px;
+    border: none;
+    padding: 8px 15px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: none;
+}
+.dataTables_filter{
+    margin-bottom: 15px;
+}
+.datatables_search_btn {
+    background: #33b35a;
+    font-size: 16px;
+    border: none;
+    padding: 4px 15px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #fff;
+    padding-left: 10px;
+}
+.datatables_search_btn:hover, .datatables_search_btn:active{
+    background: #11ba3a;
+}
+table.dataTable thead th, table.dataTable thead td, table.dataTable tfoot th, table.dataTable tfoot td {
+    padding: 20px 10px;
+    border-bottom: 1px solid #7a7a7a66;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7a7a7a;
+    border-top: 1px solid #7a7a7a66;
+    vertical-align: middle;
+}
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 15px 10px;
+    font-size: 14px;
+    color: #7a7a7a;
+    font-weight: 500;
+}
+.table-striped tbody tr.odd{
+    background: #f8f8f8;
+}
+.dataTables_length select {
+    font-size: 16px;
+}
